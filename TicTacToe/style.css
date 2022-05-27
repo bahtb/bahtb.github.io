@@ -1,0 +1,27 @@
+body{
+  background-color: #647195;
+}
+
+p{
+  font-size: 100px;
+}
+
+
+
+button{
+  width: 300px;
+  height: 300px;
+}
+
+p.gracz{
+  float: right;
+  border: 30px;
+  margin: 100px;
+}
+
+h3.gracz{
+  float: right;
+  border: 30px;
+  font-size: 100px;
+  margin: 100px;
+}
