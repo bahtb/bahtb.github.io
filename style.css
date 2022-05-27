@@ -1,0 +1,27 @@
+body{
+  background-color: #515456;
+}
+
+input.inputResultC{
+  width: 480px;
+  height: 80px;
+  font-size: 48px;
+  background-color: #EBF0F3;
+  border-radius: 5px;
+}
+
+button{
+  width: 120px;
+  height: 100px;
+  font-size: 36px;
+}
+
+button.DC{
+  background-color: #406B8D;
+  border-radius: 2px;
+}
+
+button.LC{
+  background-color: #7291AB;
+  border-radius: 5px;
+}
