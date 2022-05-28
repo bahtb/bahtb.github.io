@@ -170,7 +170,7 @@ function division(){
 
 function plusR(){
   
-  count = 0;
+  count = 1;
   LongAndSelect()
   
   if (whatWhy == 1) {
