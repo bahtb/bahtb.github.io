@@ -169,6 +169,8 @@ function division(){
 
 
 function plusR(){
+  
+  LongAndSelect()
 
   count = 0;
   if (whatWhy == 1) {
