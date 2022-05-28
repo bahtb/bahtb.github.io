@@ -1,7 +1,6 @@
 var player = 0;
 whoplayer()
 
-console.log("TEst github commit and pull")
 
 function allDisable(){
   document.getElementById("bt1").disabled = true;
