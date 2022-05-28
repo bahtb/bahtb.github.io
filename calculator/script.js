@@ -16,45 +16,46 @@ var count = 1;
 function LongAndSelect(){
   if (count ==10) {
     number10 = document.getElementById('inputResult').value;
-    count++;
+    
   }
   if (count ==9) {
     number9 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==8) {
     number8 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==7) {
     number7 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==6) {
     number6 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==5) {
     number5 = document.getElementById('inputResult').value;
-    count++;
+    
   }
   if (count ==4) {
     number4 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==3) {
     number3 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==2) {
     number2 = document.getElementById('inputResult').value;
-    count++;
+
   }
   if (count ==1) {
     number1 = document.getElementById('inputResult').value;
-    count++;
+    
   }
   document.getElementById('inputResult').value = "";
+  count++;
 }
 
 function onLoad(){
@@ -162,42 +163,11 @@ function plus(){
 function division(){
   LongAndSelect()
 
-
   whatWhy = 4;
 }
 
 
 function plusR(){
-  if (count ==1) {
-    number1 = document.getElementById('inputResult').value;
-  }
-  if (count ==2) {
-    number2 = document.getElementById('inputResult').value;
-  }
-  if (count ==3) {
-    number3 = document.getElementById('inputResult').value;
-  }
-  if (count ==4) {
-    number4 = document.getElementById('inputResult').value;
-  }
-  if (count ==5) {
-    number5 = document.getElementById('inputResult').value;
-  }
-  if (count ==6) {
-    number6 = document.getElementById('inputResult').value;
-  }
-  if (count ==7) {
-    number7 = document.getElementById('inputResult').value;
-  }
-  if (count ==8) {
-    number8 = document.getElementById('inputResult').value;
-  }
-  if (count ==9) {
-    number9 = document.getElementById('inputResult').value;
-  }
-  if (count ==10) {
-    number10 = document.getElementById('inputResult').value;
-  }
 
   count = 0;
   if (whatWhy == 1) {
