@@ -14,6 +14,7 @@ var whatWhy;
 var count = 1;
 
 function LongAndSelect(){
+  console.log("LongAndSelect")
   if (count ==10) {
     number10 = document.getElementById('inputResult').value;
     
