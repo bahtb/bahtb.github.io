@@ -1,0 +1,30 @@
+body{
+  background-color: #5b5b5b;
+}
+
+input.writ{
+  height: 60px;
+  width: 200px;
+  font-size: 34px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+p.zgadnij{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+button.btn{
+  height: 40px;
+  width: 100px;
+}
+
+a.submit{
+  font-size: 16px;
+}
+
+p.opis{
+  font-size: 26px;
+}
