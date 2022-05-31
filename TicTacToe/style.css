@@ -6,32 +6,33 @@ p{
   font-size: 100px;
 }
 
-div{
-  margin: 5px;
-}
 
 div.Dleft{
   width: 300px;
   height: 300px;
   float: left;
+  margin: 5px;
 }
 
 div.Dup{
   position: fixed;
   top: 0;
   left: 0;
+  margin: 5px;
 }
 
 div.Dcenter{
   position: fixed;
   top: 315px;
   left: 0;
+  margin: 5px;
 }
 
 div.Ddown{
   position: fixed;
   top: 635px;
   left: 0;
+  margin: 5px;
 }
 
 div.player{
