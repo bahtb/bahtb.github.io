@@ -24,26 +24,26 @@ div.Dup{
 
 div.Dcenter{
   position: fixed;
-  top: 315;
+  top: 315px;
   left: 0;
 }
 
 div.Ddown{
   position: fixed;
-  top: 635;
+  top: 635px;
   left: 0;
 }
 
 div.player{
   position: fixed;
-  top: 100;
-  right: 100;
+  top: 100px;
+  right: 100px;
 }
 
 div.cButton{
   position: fixed;
-  top: 400;
-  right: 200;
+  top: 400px;
+  right: 200px;
 }
 
 .button {
