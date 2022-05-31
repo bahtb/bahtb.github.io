@@ -18,19 +18,19 @@ div.Dleft{
 
 div.Dup{
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
 }
 
 div.Dcenter{
   position: absolute;
-  top: 320;
+  top: 320px;
   left: 0;
 }
 
 div.Ddown{
   position: absolute;
-  top: 640;
+  top: 640px;
   left: 0;
 }
 
