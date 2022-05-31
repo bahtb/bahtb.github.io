@@ -118,13 +118,16 @@ function color() {
 function whoplayer(){
   if (player ==1) {
     document.getElementById("gracz").innerHTML = 'Player: X';
+    document.getElementById("gracz").style.color = "red";
   }
 
   if (player ==2) {
     document.getElementById("gracz").innerHTML = 'Player: O';
+    document.getElementById("p2").style.color = "blue";
   }
   if (player == 0) {
     document.getElementById("gracz").innerHTML = 'Player: O';
+    document.getElementById("p2").style.color = "blue";
   }
 }
 
