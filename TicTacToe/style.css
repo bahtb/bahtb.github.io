@@ -18,32 +18,32 @@ div.Dleft{
 
 div.Dup{
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 0;
 }
 
 div.Dcenter{
   position: fixed;
-  top: 315px;
+  top: 315;
   left: 0;
 }
 
 div.Ddown{
   position: fixed;
-  top: 635px;
+  top: 635;
   left: 0;
 }
 
 div.player{
   position: fixed;
-  top: 100px;
-  right: 100px;
+  top: 100;
+  right: 100;
 }
 
 div.cButton{
   position: fixed;
-  top: 400px;
-  right: 200px;
+  top: 400;
+  right: 200;
 }
 
 .button {
