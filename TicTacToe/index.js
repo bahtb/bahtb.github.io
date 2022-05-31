@@ -118,16 +118,16 @@ function color() {
 function whoplayer(){
   if (player ==1) {
     document.getElementById("gracz").innerHTML = 'Player: X';
-    document.getElementById("gracz").style.color = "red";
+    document.getElementById("gracz").style.color = "#B60000";
   }
 
   if (player ==2) {
     document.getElementById("gracz").innerHTML = 'Player: O';
-    document.getElementById("gracz").style.color = "blue";
+    document.getElementById("gracz").style.color = "#0062B3";
   }
   if (player == 0) {
     document.getElementById("gracz").innerHTML = 'Player: O';
-    document.getElementById("gracz").style.color = "blue";
+    document.getElementById("gracz").style.color = "#0062B3";
   }
 }
 
