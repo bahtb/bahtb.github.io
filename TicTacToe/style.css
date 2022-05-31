@@ -12,6 +12,11 @@ div.Dleft{
   float: left;
 }
 
+div.Dcenter{
+  top: 80px;
+  right: 0;
+}
+
 .button {
   width: 300px;
   height: 300px;
