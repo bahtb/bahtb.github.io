@@ -145,12 +145,16 @@ function bt1() {
   console.log(player);
   document.getElementById("bt1").disabled = true;
 
+  document.getElementById("bt1").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("1").innerHTML = 'O';
+    document.getElementById("bt1").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("1").innerHTML = 'X';
+    document.getElementById("bt1").classList.add('playerX');
   }
   win()
 }
@@ -163,12 +167,16 @@ function bt2() {
   console.log(player);
   document.getElementById("bt2").disabled = true;
 
+  document.getElementById("bt2").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("2").innerHTML = 'O';
+    document.getElementById("bt2").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("2").innerHTML = 'X';
+    document.getElementById("bt2").classList.add('playerX');
   }
   win()
 }
@@ -181,12 +189,16 @@ function bt3() {
   console.log(player);
   document.getElementById("bt3").disabled = true;
 
+  document.getElementById("bt3").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("3").innerHTML = 'O';
+    document.getElementById("bt3").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("3").innerHTML = 'X';
+    document.getElementById("bt3").classList.add('playerX');
   }
   win()
 }
@@ -198,12 +210,16 @@ function bt4() {
   console.log(player);
   document.getElementById("bt4").disabled = true;
 
+  document.getElementById("bt4").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("4").innerHTML = 'O';
+    document.getElementById("bt4").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("4").innerHTML = 'X';
+    document.getElementById("bt4").classList.add('playerX');
   }
   win()
 }
@@ -215,12 +231,16 @@ function bt5() {
   console.log(player);
   document.getElementById("bt5").disabled = true;
 
+  document.getElementById("bt5").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("5").innerHTML = 'O';
+    document.getElementById("bt5").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("5").innerHTML = 'X';
+    document.getElementById("bt5").classList.add('playerX');
   }
   win()
 }
@@ -232,12 +252,16 @@ function bt6() {
   console.log(player);
   document.getElementById("bt6").disabled = true;
 
+  document.getElementById("bt6").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("6").innerHTML = 'O';
+    document.getElementById("bt6").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("6").innerHTML = 'X';
+    document.getElementById("bt6").classList.add('playerX');
   }
   win()
 }
@@ -249,12 +273,16 @@ function bt7() {
   console.log(player);
   document.getElementById("bt7").disabled = true;
 
+  document.getElementById("bt7").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("7").innerHTML = 'O';
+    document.getElementById("bt7").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("7").innerHTML = 'X';
+    document.getElementById("bt7").classList.add('playerX');
   }
   win()
 }
@@ -266,12 +294,16 @@ function bt8() {
   console.log(player);
   document.getElementById("bt8").disabled = true;
 
+  document.getElementById("bt8").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("8").innerHTML = 'O';
+    document.getElementById("bt8").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("8").innerHTML = 'X';
+    document.getElementById("bt8").classList.add('playerX');
   }
   win()
 }
@@ -283,12 +315,16 @@ function bt9() {
   console.log(player);
   document.getElementById("bt9").disabled = true;
 
+  document.getElementById("bt9").classList.remove('button');
+
   if (player ==1) {
     document.getElementById("9").innerHTML = 'O';
+    document.getElementById("bt9").classList.add('playerO');
   }
 
   if (player ==2) {
     document.getElementById("9").innerHTML = 'X';
+    document.getElementById("bt9").classList.add('playerX');
   }
   win()
 }

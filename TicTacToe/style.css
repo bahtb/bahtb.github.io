@@ -8,10 +8,73 @@ p{
 
 
 
-button{
+.button {
   width: 300px;
   height: 300px;
+  margin: 3px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #587d9b;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px rgb(81, 103, 109);
 }
+
+.button:hover {background-color: #588b9b}
+
+.playerO{
+  width: 300px;
+  height: 300px;
+  margin: 3px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 98, 179);
+  background-color: #518cbd;
+  border: none;
+  border-radius: 10px;
+}
+
+.playerX{
+  width: 300px;
+  height: 300px;
+  margin: 3px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(182, 0, 0);
+  background-color: #bd4b4b;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.ref {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px rgb(81, 103, 109);
+}
+
+.ref:hover {background-color: #bdbdbd}
+
+
+
 
 p.gracz{
   float: right;
