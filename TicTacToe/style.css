@@ -19,19 +19,19 @@ div.Dleft{
 div.Dup{
   position: fixed;
   top: 0;
-  left: 300;
+  left: 300px;
 }
 
 div.Dcenter{
   position: fixed;
   top: 315px;
-  left: 300;
+  left: 300px;
 }
 
 div.Ddown{
   position: fixed;
   top: 635px;
-  left: 300;
+  left: 300px;
 }
 
 div.player{
