@@ -117,14 +117,14 @@ function color() {
 
 function whoplayer(){
   if (player ==1) {
-    document.getElementById("gracz").innerHTML = 'X';
+    document.getElementById("gracz").innerHTML = 'Player: X';
   }
 
   if (player ==2) {
-    document.getElementById("gracz").innerHTML = 'O';
+    document.getElementById("gracz").innerHTML = 'Player: O';
   }
   if (player == 0) {
-    document.getElementById("gracz").innerHTML = 'O';
+    document.getElementById("gracz").innerHTML = 'Player: O';
   }
 }
 
@@ -148,12 +148,12 @@ function bt1() {
   document.getElementById("bt1").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("1").innerHTML = 'Player: O';
+    document.getElementById("1").innerHTML = 'O';
     document.getElementById("bt1").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("1").innerHTML = 'Player: X';
+    document.getElementById("1").innerHTML = 'X';
     document.getElementById("bt1").classList.add('playerX');
   }
   win()
@@ -170,12 +170,12 @@ function bt2() {
   document.getElementById("bt2").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("2").innerHTML = 'Player: O';
+    document.getElementById("2").innerHTML = 'O';
     document.getElementById("bt2").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("2").innerHTML = 'Player: X';
+    document.getElementById("2").innerHTML = 'X';
     document.getElementById("bt2").classList.add('playerX');
   }
   win()
@@ -192,12 +192,12 @@ function bt3() {
   document.getElementById("bt3").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("3").innerHTML = 'Player: O';
+    document.getElementById("3").innerHTML = 'O';
     document.getElementById("bt3").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("3").innerHTML = 'Player: X';
+    document.getElementById("3").innerHTML = 'X';
     document.getElementById("bt3").classList.add('playerX');
   }
   win()
@@ -213,12 +213,12 @@ function bt4() {
   document.getElementById("bt4").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("4").innerHTML = 'Player: O';
+    document.getElementById("4").innerHTML = 'O';
     document.getElementById("bt4").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("4").innerHTML = 'Player: X';
+    document.getElementById("4").innerHTML = 'X';
     document.getElementById("bt4").classList.add('playerX');
   }
   win()
@@ -234,12 +234,12 @@ function bt5() {
   document.getElementById("bt5").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("5").innerHTML = 'Player: O';
+    document.getElementById("5").innerHTML = 'O';
     document.getElementById("bt5").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("5").innerHTML = 'Player: X';
+    document.getElementById("5").innerHTML = 'X';
     document.getElementById("bt5").classList.add('playerX');
   }
   win()
@@ -255,12 +255,12 @@ function bt6() {
   document.getElementById("bt6").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("6").innerHTML = 'Player: O';
+    document.getElementById("6").innerHTML = 'O';
     document.getElementById("bt6").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("6").innerHTML = 'Player: X';
+    document.getElementById("6").innerHTML = 'X';
     document.getElementById("bt6").classList.add('playerX');
   }
   win()
@@ -276,12 +276,12 @@ function bt7() {
   document.getElementById("bt7").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("7").innerHTML = 'Player: O';
+    document.getElementById("7").innerHTML = 'O';
     document.getElementById("bt7").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("7").innerHTML = 'Player: X';
+    document.getElementById("7").innerHTML = 'X';
     document.getElementById("bt7").classList.add('playerX');
   }
   win()
@@ -297,12 +297,12 @@ function bt8() {
   document.getElementById("bt8").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("8").innerHTML = 'Player: O';
+    document.getElementById("8").innerHTML = 'O';
     document.getElementById("bt8").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("8").innerHTML = 'Player: X';
+    document.getElementById("8").innerHTML = 'X';
     document.getElementById("bt8").classList.add('playerX');
   }
   win()
@@ -318,12 +318,12 @@ function bt9() {
   document.getElementById("bt9").classList.remove('button');
 
   if (player ==1) {
-    document.getElementById("9").innerHTML = 'Player: O';
+    document.getElementById("9").innerHTML = 'O';
     document.getElementById("bt9").classList.add('playerO');
   }
 
   if (player ==2) {
-    document.getElementById("9").innerHTML = 'Player: X';
+    document.getElementById("9").innerHTML = 'X';
     document.getElementById("bt9").classList.add('playerX');
   }
   win()
