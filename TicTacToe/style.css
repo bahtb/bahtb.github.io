@@ -12,21 +12,21 @@ div.Dleft{
   float: left;
 }
 
+div.Dup{
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
 div.Dcenter{
   position: absolute;
   top: 320px;
   left: 0;
 }
 
-div.Dup{
-  position: absolute;
-  top: 640px;
-  left: 0;
-}
-
 div.Ddown{
   position: absolute;
-  top: 1200px;
+  top: 640px;
   left: 0;
 }
 
