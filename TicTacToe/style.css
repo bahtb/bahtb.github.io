@@ -3,9 +3,10 @@ body{
 }
 
 p{
-  font-size: 120px;
+  font-size: 200px;
   font-weight: 800;
-  text-align: center;
+  text-shadow: #1c222f;
+  text-align: start;
 }
 
 div{
