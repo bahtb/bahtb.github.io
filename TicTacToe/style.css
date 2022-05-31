@@ -40,8 +40,8 @@ div.player{
   right: 600px;
 }
 
-div.pLeft{
-  float: left;
+div.pRight{
+  float: right;
 }
 
 div.cButton{
