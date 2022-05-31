@@ -46,6 +46,7 @@ div.cButton{
   position: fixed;
   top: 400px;
   right: 200px;
+  margin: 0px;
 }
 
 .button {
