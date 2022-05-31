@@ -27,6 +27,7 @@ div.Dcenter{
   position: relative;
   top: 320px;
   left: 0;
+  float: left;
 }
 
 div.Ddown{
