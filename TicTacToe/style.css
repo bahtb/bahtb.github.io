@@ -98,21 +98,21 @@ div.cButton{
 
 .ref {
   font-size: 80px;
-  font-weight: 900;
+  font-weight: 600;
   width: 400px;
   height: 150px;
   margin: 20px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #111229;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 9px rgb(81, 103, 109);
+  box-shadow: 0 9px rgb(55, 60, 81);
 }
 
-.ref:hover {background-color: #bdbdbd}
+.ref:hover {background-color: #1d3847}
 
 
 p.gracz{
