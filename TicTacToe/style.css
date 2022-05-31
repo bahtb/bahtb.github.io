@@ -17,19 +17,19 @@ div.Dleft{
 }
 
 div.Dup{
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0;
 }
 
 div.Dcenter{
-  position: absolute;
+  position: relative;
   top: 320px;
   left: 0;
 }
 
 div.Ddown{
-  position: absolute;
+  position: relative;
   top: 640px;
   left: 0;
 }
