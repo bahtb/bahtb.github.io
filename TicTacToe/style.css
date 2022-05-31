@@ -106,13 +106,13 @@ div.cButton{
   cursor: pointer;
   outline: none;
   color: rgb(255, 255, 255);
-  background-color: #111229;
+  background-color: #1c222f;
   border: none;
   border-radius: 10px;
   box-shadow: 0 9px rgb(55, 60, 81);
 }
 
-.ref:hover {background-color: #1d3847}
+.ref:hover {background-color: #3d424f}
 
 
 p.gracz{
