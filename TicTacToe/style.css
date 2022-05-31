@@ -40,9 +40,6 @@ div.player{
   right: 600px;
 }
 
-div.pRight{
-  float: right;
-}
 
 div.cButton{
   position: fixed;
@@ -125,4 +122,5 @@ p.gracz{
 h3.gracz{
   font-weight: bold;
   font-size: 100px;
+  float: right;
 }
