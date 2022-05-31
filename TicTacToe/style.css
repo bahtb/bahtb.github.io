@@ -6,6 +6,10 @@ p{
   font-size: 100px;
 }
 
+div{
+  margin: 5px;
+}
+
 div.Dleft{
   width: 300px;
   height: 300px;
