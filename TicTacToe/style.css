@@ -39,6 +39,7 @@ div.player{
   position: fixed;
   top: 100px;
   right: 100px;
+  margin: 0;
 }
 
 div.cButton{
