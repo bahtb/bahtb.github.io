@@ -34,6 +34,7 @@ div.Ddown{
   position: relative;
   top: 640px;
   left: 0;
+  float: left;
 }
 
 .button {
