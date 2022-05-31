@@ -20,6 +20,7 @@ div.Dup{
   position: relative;
   top: 0px;
   left: 0;
+  float: left;
 }
 
 div.Dcenter{
