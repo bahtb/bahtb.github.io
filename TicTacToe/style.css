@@ -37,14 +37,14 @@ div.Ddown{
 div.player{
   position: fixed;
   top: 100px;
-  right: 300px;
+  right: 250px;
 }
 
 
 div.cButton{
   position: fixed;
   top: 400px;
-  right: 300px;
+  right: 270px;
 }
 
 .button {
