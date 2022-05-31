@@ -97,7 +97,7 @@ div.cButton{
 
 
 .ref {
-  font-size: 80px;
+  size: 80px;
   font-weight: 900;
   width: 400px;
   height: 150px;
@@ -118,6 +118,5 @@ div.cButton{
 h3.gracz{
   font-weight: bold;
   font-size: 100px;
-  color: blue;
 }
 
