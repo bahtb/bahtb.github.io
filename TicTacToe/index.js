@@ -123,11 +123,11 @@ function whoplayer(){
 
   if (player ==2) {
     document.getElementById("gracz").innerHTML = 'Player: O';
-    document.getElementById("p2").style.color = "blue";
+    document.getElementById("gracz").style.color = "blue";
   }
   if (player == 0) {
     document.getElementById("gracz").innerHTML = 'Player: O';
-    document.getElementById("p2").style.color = "blue";
+    document.getElementById("gracz").style.color = "blue";
   }
 }
 
