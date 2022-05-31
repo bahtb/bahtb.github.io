@@ -6,6 +6,11 @@ p{
   font-size: 100px;
 }
 
+div{
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
 
 .button {
   width: 300px;
