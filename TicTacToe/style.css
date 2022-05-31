@@ -122,7 +122,10 @@ h3.gracz{
   font-size: 100px;
 }
 
-
+div.graczG{
+  position: absolute;
+  left: 0;
+}
 
 div.graczW{
   position: absolute;
