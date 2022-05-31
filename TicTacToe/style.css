@@ -114,17 +114,8 @@ div.cButton{
 .ref:hover {background-color: #bdbdbd}
 
 
-p.gracz{
-  font-weight: normal;
-}
-
 h3.gracz{
   font-weight: bold;
   font-size: 100px;
-}
-
-div.graczG{
-  position: absolute;
-  left: 0;
 }
 
