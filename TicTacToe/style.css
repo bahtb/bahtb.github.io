@@ -40,6 +40,10 @@ div.player{
   right: 600px;
 }
 
+div.pLeft{
+  float: left;
+}
+
 div.cButton{
   position: fixed;
   top: 400px;
