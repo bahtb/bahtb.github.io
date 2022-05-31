@@ -19,22 +19,19 @@ div.Dleft{
 div.Dup{
   position: relative;
   top: 0px;
-  left: 0;
-  float: left;
+  left: 0px;
 }
 
 div.Dcenter{
   position: relative;
   top: 320px;
-  left: 0;
-  float: left;
+  left: 0px;
 }
 
 div.Ddown{
   position: relative;
   top: 640px;
-  left: 0;
-  float: left;
+  left: 0px;
 }
 
 .button {
