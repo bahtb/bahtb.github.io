@@ -8,12 +8,12 @@ p{
 
 div{
   margin: 5px;
-  float: left;
 }
 
 div.Dleft{
   width: 300px;
   height: 300px;
+  float: left;
 }
 
 div.Dup{
