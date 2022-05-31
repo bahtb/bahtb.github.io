@@ -40,6 +40,12 @@ div.player{
   right: 100px;
 }
 
+div.cButton{
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+
 .button {
   width: 300px;
   height: 300px;
