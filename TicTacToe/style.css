@@ -17,31 +17,31 @@ div.Dleft{
 }
 
 div.Dup{
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0;
 }
 
 div.Dcenter{
-  position: absolute;
+  position: fixed;
   top: 315px;
   left: 0;
 }
 
 div.Ddown{
-  position: absolute;
+  position: fixed;
   top: 635px;
   left: 0;
 }
 
 div.player{
-  position: absolute;
+  position: fixed;
   top: 100px;
   right: 100px;
 }
 
 div.cButton{
-  position: absolute;
+  position: fixed;
   top: 400px;
   right: 200px;
 }
