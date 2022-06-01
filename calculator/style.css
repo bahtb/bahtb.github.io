@@ -3,26 +3,47 @@ body{
 }
 
 input.inputResultC{
-  width: 486px;
+  width: 548px;
   height: 80px;
   font-size: 48px;
   background-color: #EBF0F3;
   border-radius: 5px;
 }
+.inputResultC{
+  cursor: text;
+}
+
 
 button{
-  width: 120px;
-  height: 100px;
-  font-size: 36px;
+  width: 135px;
+  height: 112px;
+  font-size: 40px;
+  font-weight: 600;
   margin: 1px;
 }
 
 button.DC{
   background-color: #406B8D;
-  border-radius: 2px;
+  border-radius: 8px;
 }
+
+.DC:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:#40778d;
+  cursor: pointer;
+}
+
 
 button.LC{
   background-color: #7291AB;
-  border-radius: 5px;
+  border-radius: 8px;
 }
+
+.LC:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:rgb(129, 151, 158);
+  cursor: pointer;
+}
+
+
+

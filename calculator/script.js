@@ -59,10 +59,6 @@ function LongAndSelect(){
   count++;
 }
 
-function onLoad(){
-  document.getElementById("inputResult").disabled = true;
-}
-
 
 function plus1(){
   inputUser = document.getElementById('inputResult').value;
