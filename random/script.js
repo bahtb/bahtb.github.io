@@ -24,7 +24,7 @@ function check(){
 
   if (input==random) {
     if(proba == 0){
-      window.location.href = "https://bahtb.github.io/testingsite/never.mp4";
+      window.location.href = "https://bahtb.github.io/testingsite/";
     }
     document.getElementById("opis").innerHTML = "Zgadłeś przy "+(proba)+" próbie"
     document.getElementById("btn").disabled = true;
