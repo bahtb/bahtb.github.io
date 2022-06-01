@@ -13,6 +13,7 @@ var resultV;
 var whatWhy;
 var count = 1;
 
+
 function LongAndSelect(){
   console.log("LongAndSelect")
   if (count ==10) {
