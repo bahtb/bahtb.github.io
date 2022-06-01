@@ -25,6 +25,8 @@ button{
 button.DC{
   background-color: #406B8D;
   border-radius: 8px;
+  border: none;
+  outline: none;
 }
 
 .DC:hover{
@@ -37,12 +39,14 @@ button.DC{
 button.LC{
   background-color: #7291AB;
   border-radius: 8px;
+  border: none;
 }
 
 .LC:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   background-color:rgb(129, 151, 158);
   cursor: pointer;
+  outline: none;
 }
 
 
