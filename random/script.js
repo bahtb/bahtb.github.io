@@ -43,10 +43,10 @@ function color(){
   }
 
   if (clr==1) {
-    document.getElementById("opis").style.color = 'blue';
+    document.getElementById("opis").style.color = '#26989C';
   }
 
   if (clr==2) {
-    document.getElementById("opis").style.color = 'red';
+    document.getElementById("opis").style.color = '#B70000';
   }
 }
