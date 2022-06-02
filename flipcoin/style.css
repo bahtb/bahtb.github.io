@@ -1,0 +1,46 @@
+body{
+    background-color: #1D5E92;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+canvas{
+    width: 400px;
+    height: 400px;
+    background-color: #1D5E92;
+}
+
+button{
+    border-radius: 6px;
+    width: 120px;
+    height: 45px;
+}
+
+.descript{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #dddddd;
+}
+
+.myMoney{
+    position: relative;
+    top: 60px;
+}
+
+p.main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px #646464;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.center{
+    position: relative;
+    bottom: 12px;
+}
