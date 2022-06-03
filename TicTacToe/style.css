@@ -80,6 +80,7 @@ div.cButton{
   background-color: #518cbd;
   border: none;
   border-radius: 10px;
+  text-shadow: 1px 3px rgb(31, 41, 70);
 }
 
 .playerX{
@@ -95,6 +96,7 @@ div.cButton{
   background-color: #bd4b4b;
   border: none;
   border-radius: 10px;
+  text-shadow: 1px 3px rgb(63, 23, 23);
 }
 
 
@@ -114,7 +116,10 @@ div.cButton{
   box-shadow: 0 9px rgb(55, 60, 81);
 }
 
-.ref:hover {background-color: #3d424f}
+.ref:hover {
+  background-color: #3d424f;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 
 p.gracz{

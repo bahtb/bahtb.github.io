@@ -1,4 +1,4 @@
-var player = 0;
+var player = 0
 whoplayer()
 
 
@@ -26,83 +26,117 @@ function win(){
   w8 = document.getElementById("8").innerHTML
   w9 = document.getElementById("9").innerHTML
 
+  
+
   if (w1 =="O" && w2 =="O" && w3 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w4 =="O" && w5 =="O" && w6 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w7 =="O" && w8 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w1 =="O" && w4 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w2 =="O" && w5 =="O" && w8 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w3 =="O" && w6 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w1 =="O" && w5 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w3 =="O" && w5 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O" );
+    alert("Wygrał gracz: O");
+    document.getElementById("gracz").innerHTML = 'Winner: O';
+    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
   }
 
   if (w1 =="X" && w2 =="X" && w3 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w4 =="X" && w5 =="X" && w6 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w7 =="X" && w8 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w1 =="X" && w4 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w2 =="X" && w5 =="X" && w8 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w3 =="X" && w6 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w1 =="X" && w5 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 
   if (w3 =="X" && w5 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X" );
+    alert("Wygrał gracz: X");
+    document.getElementById("gracz").innerHTML = 'Winner: X';
+    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
   }
 }
