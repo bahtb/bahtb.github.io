@@ -2,6 +2,18 @@ var player = 0
 whoplayer()
 
 
+function winnerBlue(){
+  alert("Wygrał gracz: O");
+  document.getElementById("gracz").innerHTML = 'Winner: O';
+  document.getElementById("gracz").style.color = "#0062B3";
+}
+
+function winnerRed(){
+  alert("Wygrał gracz: X");
+  document.getElementById("gracz").innerHTML = 'Winner: X';
+  document.getElementById("gracz").style.color = "#B60000";
+}
+
 function allDisable(){
   document.getElementById("bt1").disabled = true;
   document.getElementById("bt2").disabled = true;
@@ -29,114 +41,82 @@ function win(){
   
 
   if (w1 =="O" && w2 =="O" && w3 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w4 =="O" && w5 =="O" && w6 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w7 =="O" && w8 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w1 =="O" && w4 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w2 =="O" && w5 =="O" && w8 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w3 =="O" && w6 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w1 =="O" && w5 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w3 =="O" && w5 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
+    winnerBlue()
     allDisable()
   }
 
   if (w1 =="X" && w2 =="X" && w3 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w4 =="X" && w5 =="X" && w6 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w7 =="X" && w8 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w1 =="X" && w4 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w2 =="X" && w5 =="X" && w8 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w3 =="X" && w6 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w1 =="X" && w5 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 
   if (w3 =="X" && w5 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
+    winnerRed()
     allDisable()
   }
 }
