@@ -195,8 +195,8 @@ function zSI(){
     bt3()
   }
 
-  if(player == 1 && w8=="O" && w3 ==" "){
-    bt3()
+  if(player == 1 && w8=="O" && w7 ==" "){
+    bt7()
   }
 
   if(player == 1 && w5=="O" && w1 ==" "){
