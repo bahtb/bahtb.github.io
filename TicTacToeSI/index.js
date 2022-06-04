@@ -211,6 +211,35 @@ function zSI(){
     bt6()
   }
 
+
+  if(player == 1 && w1 ==" "){
+    bt1()
+  }
+  if(player == 1 && w2 ==" "){
+    bt2()
+  }
+  if(player == 1 && w3 ==" "){
+    bt3()
+  }
+  if(player == 1 && w4 ==" "){
+    bt4()
+  }
+  if(player == 1 && w5 ==" "){
+    bt5()
+  }
+  if(player == 1 && w6 ==" "){
+    bt6()
+  }
+  if(player == 1 && w7 ==" "){
+    bt7()
+  }
+  if(player == 1 && w8 ==" "){
+    bt8()
+  }
+  if(player == 1 && w9 ==" "){
+    bt9()
+  }
+
 }
 
 function allDisable(){
