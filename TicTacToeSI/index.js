@@ -179,27 +179,12 @@ function zSI(){
 
 
 
-  if(player == 1 && w5==" "){
-    bt5()
+
+  if(player == 1 && w1=="O" && w9=="O" && w4 ==" "){
+    bt4()
   }
 
   if(player == 1 && w2=="O" && w1 ==" "){
-    bt1()
-  }
-
-  if(player == 1 && w9=="O" && w7 ==" "){
-    bt7()
-  }
-
-  if(player == 1 && w6=="O" && w3 ==" "){
-    bt3()
-  }
-
-  if(player == 1 && w8=="O" && w7 ==" "){
-    bt7()
-  }
-
-  if(player == 1 && w5=="O" && w1 ==" "){
     bt1()
   }
 
@@ -207,9 +192,42 @@ function zSI(){
     bt2()
   }
 
+  if(player == 1 && w5==" "){
+    bt5()
+  }
+
+  if(player == 1 && w5=="O" && w1 ==" "){
+    bt1()
+  }
+
+  if(player == 1 && w6=="O" && w3 ==" "){
+    bt3()
+  }
+
+  if(player == 1 && w7=="O" && w4 ==" "){
+    bt4()
+  }
+  if(player == 1 && w7=="O" && w6 ==" "){
+    bt6()
+  }
+
+  if(player == 1 && w8=="O" && w7 ==" "){
+    bt7()
+  }
+
   if(player == 1 && w8=="O" && w6 ==" "){
     bt6()
   }
+
+  if(player == 1 && w9=="O" && w4 ==" "){
+    bt4()
+  }
+
+  if(player == 1 && w9=="O" && w6 ==" "){
+    bt6()
+  }
+
+
 
 
   if(player == 1 && w1 ==" "){
