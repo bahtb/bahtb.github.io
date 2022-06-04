@@ -1,4 +1,5 @@
 var player = 0
+var during = true;
 var w1;
 var w2;
 var w3;
@@ -9,10 +10,30 @@ var w7;
 var w8;
 var w9;
 
-whoplayer()
+function winnerRed(){
+  alert("Wygrał gracz: X");
+  document.getElementById("gracz").innerHTML = 'Winner: X';
+  document.getElementById("gracz").style.color = "#B60000";
+}
 
+function winnerBlue(){
+  alert("Wygrał gracz: O");
+  document.getElementById("gracz").innerHTML = 'Winner: O';
+  document.getElementById("gracz").style.color = "#0062B3";
+}
 
 function zSI(){
+  w1 = document.getElementById("1").innerHTML
+  w2 = document.getElementById("2").innerHTML
+  w3 = document.getElementById("3").innerHTML
+  w4 = document.getElementById("4").innerHTML
+  w5 = document.getElementById("5").innerHTML
+  w6 = document.getElementById("6").innerHTML
+  w7 = document.getElementById("7").innerHTML
+  w8 = document.getElementById("8").innerHTML
+  w9 = document.getElementById("9").innerHTML
+
+
   if(w1 =="X" && w4 =="X" && player ==1 && w7 == " "){
     bt7()
   }
@@ -270,10 +291,13 @@ function allDisable(){
   document.getElementById("bt7").disabled = true;
   document.getElementById("bt8").disabled = true;
   document.getElementById("bt9").disabled = true;
+
+  during = false;
 }
 
 
 function win(){
+  if(during == true){
   w1 = document.getElementById("1").innerHTML
   w2 = document.getElementById("2").innerHTML
   w3 = document.getElementById("3").innerHTML
@@ -284,128 +308,89 @@ function win(){
   w8 = document.getElementById("8").innerHTML
   w9 = document.getElementById("9").innerHTML
 
-  
 
   if (w1 =="O" && w2 =="O" && w3 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w4 =="O" && w5 =="O" && w6 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w7 =="O" && w8 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w1 =="O" && w4 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w2 =="O" && w5 =="O" && w8 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w3 =="O" && w6 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w1 =="O" && w5 =="O" && w9 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w3 =="O" && w5 =="O" && w7 =="O") {
-    alert("Wygrał gracz: O");
-    document.getElementById("gracz").innerHTML = 'Winner: O';
-    document.getElementById("gracz").style.color = "#0062B3";
     allDisable()
+    winnerBlue()
   }
 
   if (w1 =="X" && w2 =="X" && w3 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w4 =="X" && w5 =="X" && w6 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w7 =="X" && w8 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w1 =="X" && w4 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w2 =="X" && w5 =="X" && w8 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w3 =="X" && w6 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w1 =="X" && w5 =="X" && w9 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
   }
 
   if (w3 =="X" && w5 =="X" && w7 =="X") {
-    alert("Wygrał gracz: X");
-    document.getElementById("gracz").innerHTML = 'Winner: X';
-    document.getElementById("gracz").style.color = "#B60000";
     allDisable()
+    winnerRed()
+  }
   }
 }
 
-
-function color() {
-  clr = Math.floor(Math.random() * 900000) + 100000;
-  clr2 = '#'+clr
-  console.log(clr2);
-  document.getElementById("text").style.color = (clr2);
-}
 
 function whoplayer(){
   if (player ==1) {
@@ -452,8 +437,8 @@ function bt1() {
     document.getElementById("1").innerHTML = 'X';
     document.getElementById("bt1").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 
@@ -475,8 +460,8 @@ function bt2() {
     document.getElementById("2").innerHTML = 'X';
     document.getElementById("bt2").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 
@@ -498,8 +483,8 @@ function bt3() {
     document.getElementById("3").innerHTML = 'X';
     document.getElementById("bt3").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt4() {
@@ -520,8 +505,8 @@ function bt4() {
     document.getElementById("4").innerHTML = 'X';
     document.getElementById("bt4").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt5() {
@@ -542,8 +527,8 @@ function bt5() {
     document.getElementById("5").innerHTML = 'X';
     document.getElementById("bt5").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt6() {
@@ -564,8 +549,8 @@ function bt6() {
     document.getElementById("6").innerHTML = 'X';
     document.getElementById("bt6").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt7() {
@@ -586,8 +571,8 @@ function bt7() {
     document.getElementById("7").innerHTML = 'X';
     document.getElementById("bt7").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt8() {
@@ -608,8 +593,8 @@ function bt8() {
     document.getElementById("8").innerHTML = 'X';
     document.getElementById("bt8").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
 
 function bt9() {
@@ -630,6 +615,6 @@ function bt9() {
     document.getElementById("9").innerHTML = 'X';
     document.getElementById("bt9").classList.add('playerX');
   }
-  win()
   zSI()
+  win()
 }
