@@ -212,6 +212,10 @@ function zSI(){
     bt1()
   }
 
+  if(player == 1 && w3=="O" && w6 ==" "){
+    bt6()
+  }
+
   if(player == 1 && w4=="O" && w2 ==" "){
     bt7()
   }
