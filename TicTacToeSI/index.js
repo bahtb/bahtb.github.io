@@ -33,6 +33,9 @@ function zSI(){
   w8 = document.getElementById("8").innerHTML
   w9 = document.getElementById("9").innerHTML
 
+  if(player == 1 && w5==" "){
+    bt5()
+  }
 
   if(w1 =="X" && w4 =="X" && player ==1 && w7 == " "){
     bt7()
@@ -210,11 +213,7 @@ function zSI(){
   }
 
   if(player == 1 && w4=="O" && w2 ==" "){
-    bt2()
-  }
-
-  if(player == 1 && w5==" "){
-    bt5()
+    bt7()
   }
 
   if(player == 1 && w5=="O" && w1 ==" "){
@@ -228,16 +227,17 @@ function zSI(){
   if(player == 1 && w7=="O" && w4 ==" "){
     bt4()
   }
+
   if(player == 1 && w7=="O" && w6 ==" "){
+    bt6()
+  }
+
+  if(player == 1 && w8=="O" && w6 ==" "){
     bt6()
   }
 
   if(player == 1 && w8=="O" && w7 ==" "){
     bt7()
-  }
-
-  if(player == 1 && w8=="O" && w6 ==" "){
-    bt6()
   }
 
   if(player == 1 && w9=="O" && w4 ==" "){
